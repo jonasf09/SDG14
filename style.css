@@ -7,7 +7,7 @@
 
 body{
   background: url(Bilder/Background.jpg) no-repeat;
-  height: 525px;
+  height: 100vh;
   z-index: -1;
   background-size: cover;
   background-position: center;
@@ -184,7 +184,7 @@ body{
   color:deepskyblue;
 }
 
-#about-me-section{
+.about-me-section{
   position: relative;
   height: 550px;
   top: 378px ;
@@ -199,7 +199,7 @@ body{
   width: 750px;
 }
 
-#about-me-section img{
+.about-me-section img{
   width: 250px;
   border: 7px solid #fff;
 }
@@ -215,12 +215,14 @@ body{
   font-size: 1.1rem;
 }
 
-#service-section{
-  padding:  500px 0;
+.service-section{
+  position: relative;
+  padding:  450px 0;
+  height: 1000px;
   
 }
 
-#service-section h2{
+.service-section h2{
   text-align: center;
   font-size: 2.7rem;
 }
