@@ -232,19 +232,19 @@ body{
   z-index: 300;
 }
 
-.service-section{
+.news-section{
   position: relative;
   padding:  450px 0;
   height: 1000px;
   
 }
 
-.service-section h2{
+.news-section h2{
   text-align: center;
   font-size: 2.7rem;
 }
 
-.service-container{
+.news-container{
   margin-top: 50px;
   display: flex;
   gap: 40px;
