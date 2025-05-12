@@ -38,7 +38,7 @@ h1{
 
 .contact-section{
     position: relative;
-    padding:  450px 0;
+    padding:  200px 0;
     height: 1000px;
     
 }
@@ -82,3 +82,47 @@ h1{
     justify-content: center;
     border-radius: 10px;
 }
+
+.mail-container{
+    margin-top: 75px;
+    margin-left: 75px;
+    display: flex;
+    width: 60%;
+    height: 300px;
+}
+
+.mail-box{
+    width: 500px;
+    height: 100%;
+    background-color: var(--another-color);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.newsletter-container{
+    background: rgba(233, 233, 233, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 30px;
+    padding: 30px;
+    width: 250px;
+    
+}
+
+.newsletter-section{
+    position: absolute;
+    top: 400px;
+    right: 600px;
+    justify-content: space-between;
+  }
+  
+.newsletter-section p {
+    font-size: 1.4rem;
+    font-weight: 200;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 0s;
+  }
+
+
