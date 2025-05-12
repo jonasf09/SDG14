@@ -36,14 +36,14 @@ h1{
     color: #fff
 }
 
-.news-section{
+.contact-section{
     position: relative;
     padding:  450px 0;
     height: 1000px;
     
 }
 
-.news-container{
+.contact-container{
     margin-top: 50px;
     display: flex;
     gap: 40px;
