@@ -185,6 +185,7 @@ body{
 }
 
 .about-me-section{
+  margin-top: 105px;
   position: relative;
   height: 550px;
   top: 378px ;
