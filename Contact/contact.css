@@ -107,7 +107,7 @@ h1{
     -webkit-backdrop-filter: blur(6px);
     border-radius: 30px;
     padding: 20px;
-    width: 350px;
+    width: 300px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -124,8 +124,17 @@ h1{
 }
   
 .newsletter-section p {
+    padding-left: 10px;
     font-size: 1.4rem;
     font-weight: 200;
     animation: slideLeft 1s ease forwards;
     animation-delay: 0s;
+}
+
+.newsletter-container input{
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    padding: 10px;
+    width: 270px;
+    font-size: 15px;
 }
