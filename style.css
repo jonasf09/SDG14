@@ -160,7 +160,6 @@ body{
   color: black;
 }
 
-/* Show the dropdown menu when the user moves the mouse over the dropdown button */
 .dropdown:hover .dropdown-content {
   display: block;
 }
