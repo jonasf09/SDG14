@@ -124,11 +124,10 @@ h1{
 }
   
 .newsletter-section p {
-    padding-left: 10px;
-    font-size: 1.4rem;
+    display: flex;
+    text-align: center;
+    font-size: 1.2rem;
     font-weight: 200;
-    animation: slideLeft 1s ease forwards;
-    animation-delay: 0s;
 }
 
 .newsletter-container input{
@@ -137,4 +136,18 @@ h1{
     padding: 10px;
     width: 270px;
     font-size: 15px;
+    border: none;
+}
+
+.newsletter-container button {
+    background-color:var(--another-color);
+    box-shadow: none;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    width: 250px;
+    margin-left: 25px;
+
 }
