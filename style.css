@@ -124,16 +124,9 @@ body{
 
 .dropdown__arrow {
   font-size: 1.25rem;
-  font-weight: initial;
+  font-weight: 10px;
   transition: transform .4s;
 }
-
-.dropdown__item:hover .dropdown-content{
-  max-height: 1000px;
-  transition: max-height .4s ease-in;
-}
-
-/* Rotate dropdown icon */
 .dropdown__item:hover .dropdown__arrow {
   transform: rotate(180deg);
 }
@@ -153,7 +146,6 @@ body{
 .dropdown-content a {
   color: black;
   padding: 5px 16px;
-  display: block;
   text-align: left;
 }
 
