@@ -115,10 +115,15 @@ h1{
 
 }
 
+.newsletter-container h2{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
 .newsletter-section{
     position: absolute;
     top: 400px;
-    padding-left: 700px;
+    padding-left: 750px;
     padding-top: 30px;
     justify-content: space-between;
 }
