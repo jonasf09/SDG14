@@ -158,8 +158,6 @@ body{
   }
 
   .home-btn {
-    position: absolute;
-    right: 50px;
     cursor: pointer;
     background-color: transparent;
     font-size: 1.4rem;
