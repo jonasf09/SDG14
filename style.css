@@ -142,22 +142,21 @@ body{
   z-index: 1;
 }
 
-/* Style the links inside the dropdown */
 .dropdown-content a {
   color: black;
   padding: 5px 16px;
   text-align: left;
 }
 
-/* Add a dark background on topnav links and the dropdown button on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
+  background-color: rgba(0, 0, 0, .3);
+  border-radius: 10px;
   color: white;
 }
 
-/* Add a grey background to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color:rgb(224, 229, 224);
+  background-color:rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
   color: black;
 }
 
