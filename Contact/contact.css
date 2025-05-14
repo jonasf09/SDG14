@@ -232,7 +232,7 @@ h1{
 
 .mail-container{
     margin-top: -75px;
-    margin-left: 225px;
+    margin-left: 210px;
     display: flex;
     width: 60%;
     height: 300px;
@@ -358,10 +358,10 @@ h1{
 }
 
 /* Breakpoints */
-@media(max-width: 850px) {
+@media(max-width: 1500px) {
   .mail-container{
     margin-top: -75px;
-    margin-left: 175px;
+    margin-left: 225px;
     display: flex;
     width: 60%;
     height: 300px;
