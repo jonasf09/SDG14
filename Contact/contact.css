@@ -356,3 +356,24 @@ h1{
     margin-left: 25px;
     font-size: 15px;
 }
+
+/* Breakpoints */
+@media(max-width: 992px) {
+  .mail-container{
+    margin-top: -75px;
+    margin-left: 225px;
+    display: flex;
+    width: 60%;
+    height: 300px;
+    }
+}
+
+@media(max-width: 880px) {
+    .mail-container{
+    margin-top: -75px;
+    margin-left: 200px;
+    display: flex;
+    width: 60%;
+    height: 300px;
+}
+}
