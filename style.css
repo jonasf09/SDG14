@@ -244,12 +244,12 @@ body{
 
 
 .card{
-  width: 350px;
+  width: 375px;
   background-color: var(--secondary-color);
   color: #fff;
   font-size: 1.2rem;
   border-radius: 50px;
-  padding: 80px 50px;
+  padding: 50px 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
