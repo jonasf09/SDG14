@@ -361,19 +361,10 @@ h1{
 @media(max-width: 992px) {
   .mail-container{
     margin-top: -75px;
-    margin-left: 225px;
+    margin-left: 175px;
     display: flex;
     width: 60%;
     height: 300px;
     }
 }
 
-@media(max-width: 880px) {
-    .mail-container{
-    margin-top: -75px;
-    margin-left: 200px;
-    display: flex;
-    width: 60%;
-    height: 300px;
-}
-}
