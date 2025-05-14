@@ -231,8 +231,9 @@ h1{
 }
 
 .mail-container{
-    margin-top: -75px;
-    margin-left: 210px;
+    position: relative;
+    left: -100px;
+    margin-right: 300px;
     display: flex;
     width: 60%;
     height: 300px;
@@ -323,7 +324,7 @@ h1{
 .newsletter-section{
     position: absolute;
     top: 400px;
-    padding-left: 915px;
+    padding-left:825px;
     padding-top: 30px;
     justify-content: space-between;
 }
