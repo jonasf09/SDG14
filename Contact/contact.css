@@ -37,6 +37,7 @@ body{
 }
   
 .navbar a {
+    margin-top: 20px;
     font-size: 1.4rem;
     color: #fff;
     text-decoration: none;
@@ -62,7 +63,7 @@ body{
     padding: 12px;
     background-color: transparent;
     font-family:Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin-top: 20px;
     animation: orga 1s ease forwards;
     animation-delay: 0s;
 }
@@ -159,12 +160,14 @@ body{
 }
 
 .home-btn {
+    margin-right: 20px;
+    margin-top: -10px;
     cursor: pointer;
     background-color: transparent;
     font-size: 1.4rem;
     font-weight: 500;
     color: #fff;
-    padding: 8px 12px;
+    padding: 10px 6px;
     border: none;
     animation: home 1s ease forwards;
     animation-delay: 0s;
