@@ -304,6 +304,12 @@ body{
   }
 }
 
+@media(min-width:1200px) {
+  .about-me-section{
+    margin-top: 125px;
+  }
+}
+
 @media (max-width:768px) {
   .icons{
     display: inline-flex;
