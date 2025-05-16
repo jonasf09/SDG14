@@ -440,12 +440,6 @@ h1 {
     display: none;
   }
 
-  .dropdown-content:hover{
-    .navbar a{
-      display: none;
-    }
-  }
-
   .navbar{
   position: absolute;
   top: 100%;
@@ -506,7 +500,7 @@ h1 {
 @media(min-width: 1200px) {
     .mail-container {
         width: 80%;
-        margin-left: 175px;
+        margin-left: 225px;
         margin-top: -80px;
     }
 }
