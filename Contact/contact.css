@@ -1,20 +1,20 @@
-body{
+body {
     margin: 0;
     padding: 0;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(0,0,0, .4);
+    background-color: rgba(0, 0, 0, .4);
     background-size: cover;
     background-position: center;
 }
 
-:root{
+:root {
     --primary-color: #15171c;
     --secondary-color: #232933;
     --another-color: #2E3744;
 }
-   
-.header{
+
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -27,15 +27,15 @@ body{
     align-items: center;
     z-index: 100;
 }
-  
-.logo{
+
+.logo {
     position: relative;
     height: 100px;
     padding-left: 0px;
     animation: logo 1.5s ease forwards;
     animation-delay: 0s;
 }
-  
+
 .navbar a {
     margin-top: 20px;
     font-size: 1.4rem;
@@ -55,19 +55,19 @@ body{
     float: left;
     overflow: hidden;
 }
-  
+
 .dropdown .dropbtn {
     font-size: 1.4rem;
-    border:none;
+    border: none;
     color: white;
     padding: 12px;
     background-color: transparent;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
     animation: orga 1s ease forwards;
     animation-delay: 0s;
 }
-  
+
 .dropdown__item {
     cursor: pointer;
     display: flex;
@@ -75,7 +75,7 @@ body{
     align-items: center;
     column-gap: .5rem;
 }
-  
+
 .dropdown__arrow {
     font-size: 1.25rem;
     font-weight: 10px;
@@ -85,36 +85,37 @@ body{
 .dropdown__item:hover .dropdown__arrow {
     transform: rotate(180deg);
 }
-  
+
 .dropdown-content {
-    display:none;
+    display: none;
     position: absolute;
     padding: 5px;
-    background-color:rgba(0,0,0, .2);
+    background-color: rgba(0, 0, 0, .2);
     backdrop-filter: blur(10px);
     min-width: 130px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
-  
+
 .dropdown-content a {
     color: black;
     padding: 5px 16px;
     text-align: left;
 }
-  
-.navbar a:hover, .dropdown:hover .dropbtn {
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
     background-color: rgba(0, 0, 0, .3);
     border-radius: 10px;
     color: white;
 }
-  
+
 .dropdown-content a:hover {
-    background-color:rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     color: black;
 }
-  
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -126,11 +127,11 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0, .1);
+    background-color: rgba(0, 0, 0, .1);
     backdrop-filter: blur(10.5px);
     z-index: -1;
 }
-  
+
 .header::after {
     content: "";
     position: absolute;
@@ -138,19 +139,19 @@ body{
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent,rgba(255,255,255, .4) , transparent);
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .4), transparent);
     transition: .5s;
 }
-  
+
 .header:hover::after {
     left: 100%;
 }
-  
-#check{
+
+#check {
     display: none;
 }
-  
-.icons{
+
+.icons {
     position: absolute;
     right: 5%;
     font-size: 2.8rem;
@@ -174,21 +175,21 @@ body{
 }
 
 .home-btn:hover {
-    color:deepskyblue;
+    color: deepskyblue;
 }
 
-.first-section{
+.first-section {
     position: relative;
     padding: 150px 0;
 }
 
-h1{
+h1 {
     font-size: 80px;
     font-weight: 700;
     text-align: center;
 }
 
-.underline{
+.underline {
     width: 80%;
     height: 20px;
     background-color: var(--secondary-color);
@@ -197,19 +198,21 @@ h1{
     border-radius: 20px;
 }
 
-.contact-section{
+.contact-section {
     position: relative;
-    padding:  100px 0;
+    padding: 100px 0;
 }
 
-.contact-container{
+.contact-container {
     margin-top: 85px;
     display: flex;
     gap: 40px;
     justify-content: center;
 }
 
-.card-1, .card-2, .card-3{
+.card-1,
+.card-2,
+.card-3 {
     width: 275px;
     height: 160px;
     color: #fff;
@@ -223,161 +226,227 @@ h1{
     text-align: center;
 }
 
-.card-1{
+.card-1 {
     background-color: var(--primary-color);
 }
 
-.card-2{
+.card-2 {
     background-color: var(--another-color);
 }
 
-.card-3{
+.card-3 {
     background-color: var(--secondary-color);
 }
 
-.map-container{
+.map-container {
     margin-top: 100px;
     display: flex;
     justify-content: center;
     border-radius: 10px;
 }
 
-.mail-container{
+.mail-container {
     position: relative;
-    left: -100px;
     display: flex;
-    width: 60%;
-    height: 300px;
+    flex-direction: column; /* Change to column for smaller screens */
+    width: 80%; /* Adjust width for better responsiveness */
+    max-width: 600px; /* Limit maximum width */
+    margin: 20px auto 0;
 }
 
-.mail-box input{
+.mail-box,
+.phone-box {
     position: relative;
-    top: 10px;
-    width: 250px;
+    margin-bottom: 20px; /* Add spacing between input fields */
+    margin-left: 0; /* Reset left margin */
+    margin-top: 0; /* Reset top margin */
+}
+
+.mail-box input,
+.phone-box input {
+    width: 100%; /* Make input fields take full width */
     border-radius: 40px;
-    padding: 15px;
+    padding: 15px 45px 15px 15px; /* Add padding for the icon */
     border: none;
+    font-size: 1rem; /* Adjust font size for better readability */
 }
 
 .mail-box span {
-    position: relative;
-    font-size: 30px;
-    right: 50px;
-    top: 22px;
-}
-
-.phone-box{
-    margin-left: 300px;
-    margin-top: -32px;
-}
-
-.phone-box input{
-    width: 250px;
-    border-radius: 40px;
-    padding: 15px;
-    border: none;
+    position: absolute;
+    font-size: 25px;
+    right: 15px;
+    top: 15px;
 }
 
 .phone-box span {
-    position: relative;
-    font-size: 25px;
-    right: 45px;
-    top: 8px;
+    position: absolute;
+    font-size: 20px;
+    right: 15px;
+    top: 17px;
 }
 
-.name-box input{
-    width: 550px;
+.name-box input {
+    width: 100%;
     border-radius: 40px;
     padding: 15px;
     border: none;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.message-box input {
+    width: 100%;
+    border-radius: 20px;
+    padding: 15px;
+    border: none;
+    margin-top: 20px;
+    height: 120px;
+    font-size: 1rem;
+}
+
+.send-box {
+    display: flex;
+    justify-content: center; 
     margin-top: 30px;
 }
 
-.message-box input{
-    width: 560px;
+.send-box button {
+    width: 175px;
     border-radius: 20px;
     padding: 10px;
     border: none;
-    margin-top: 30px;
-    height: 100px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
-.send-box button{
-   width: 174px;
-   border-radius: 20px;
-   padding: 10px;
-   border: none;
-   margin-top: 30px;
-   background-color: var(--secondary-color);
-   color: #fff;
-   font-size: 15px;
+.newsletter-section {
+    position: relative;
+    padding: 30px 10%; 
+    margin-top: 50px; 
+    display: flex;
+    justify-content: center; 
 }
-.newsletter-container{
+
+.newsletter-container {
     background: rgba(233, 233, 233, 0.1);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     border-radius: 30px;
     padding: 20px;
-    width: 300px;
-    height: 300px;
+    width: 80%; 
+    max-width: 400px; 
     display: flex;
     flex-direction: column;
-    gap: 5px;
-
+    gap: 10px;
+    text-align: center; 
 }
 
-.newsletter-container h2{
-    font-size: 1.6rem;
+.newsletter-container h2 {
+    font-size: 1.4rem;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
-.newsletter-section{
-    position: absolute;
-    top: 400px;
-    padding-left: 64%;
-    padding-top: 30px;
-    justify-content: space-between;
-}
-  
 .newsletter-section p {
-    display: flex;
-    text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 200;
+    margin-bottom: 15px;
 }
 
-.newsletter-container input{
+.newsletter-container input {
     background-color: var(--secondary-color);
     color: #fff;
     border-radius: 20px;
     padding: 10px;
-    width: 270px;
-    font-size: 15px;
+    font-size: 1rem;
     border: none;
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
 }
 
 .newsletter-container button {
-    background-color:var(--another-color);
+    background-color: var(--another-color);
     box-shadow: none;
     margin-top: 10px;
     border-radius: 20px;
     padding: 10px;
     color: #fff;
     border: none;
-    width: 250px;
-    margin-left: 25px;
-    font-size: 15px;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
-/* Breakpoints */
-@media(max-width: 1500px) {
-  .mail-container{
-    margin-top: -75px;
-    margin-left: 225px;
-    display: flex;
-    width: 60%;
-    height: 300px;
+@media (min-width: 768px) {
+    .mail-container {
+        top: 50px;
+        flex-direction: row; 
+        width: 60%;
+    }
+
+    .mail-box input,
+    .phone-box input {
+        width: 525px;
+    }
+
+    .name-box input,
+    .message-box input {
+        width: 550px;
+    }
+
+    .send-box {
+        margin-left: -400px;
+    }
+
+    .underline{
+        width: 72%;
+        margin-left: 15%;
+    }
+
+    .newsletter-section {
+        position: absolute;
+        top: 400px;
+        padding-left: 64%;
+        padding-top: 30px;
+    }
+
+    .newsletter-container {
+        width: 300px;
+        height: 300px;
     }
 }
 
+@media (max-width: 768px) {
+    .mail-box input,
+    .phone-box input {
+        width: 375px;
+    }
+
+    .home-btn{
+        display: none;
+    }
+
+  .contact-container {
+    flex-direction: column; 
+    align-items: center;
+    margin-top: -50px;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3 {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+    .mail-container {
+        width: 80%;
+        margin-left: 225px;
+        margin-top: -80px;
+    }
+}
