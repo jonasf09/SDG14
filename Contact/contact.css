@@ -321,6 +321,10 @@ h1 {
     cursor: pointer;
 }
 
+.send-box button:hover {
+    background-color: deepskyblue;
+}
+
 .newsletter-section {
     position: relative;
     padding: 30px 10%; 
