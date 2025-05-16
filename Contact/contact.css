@@ -500,7 +500,15 @@ h1 {
 @media(min-width: 1200px) {
     .mail-container {
         width: 80%;
-        margin-left: 175px;
+        margin-left: 125px;
+        margin-top: -80px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .mail-container {
+        width: 80%;
+        margin-left: 225px;
         margin-top: -80px;
     }
 }
