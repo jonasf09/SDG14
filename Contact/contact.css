@@ -248,27 +248,27 @@ h1 {
 .mail-container {
     position: relative;
     display: flex;
-    flex-direction: column; /* Change to column for smaller screens */
-    width: 80%; /* Adjust width for better responsiveness */
-    max-width: 600px; /* Limit maximum width */
+    flex-direction: column; 
+    width: 80%; 
+    max-width: 600px; 
     margin: 20px auto 0;
 }
 
 .mail-box,
 .phone-box {
     position: relative;
-    margin-bottom: 20px; /* Add spacing between input fields */
-    margin-left: 0; /* Reset left margin */
-    margin-top: 0; /* Reset top margin */
+    margin-bottom: 20px; 
+    margin-left: 0; 
+    margin-top: 0; 
 }
 
 .mail-box input,
 .phone-box input {
-    width: 100%; /* Make input fields take full width */
+    width: 100%; 
     border-radius: 40px;
-    padding: 15px 45px 15px 15px; /* Add padding for the icon */
+    padding: 15px 45px 15px 15px; 
     border: none;
-    font-size: 1rem; /* Adjust font size for better readability */
+    font-size: 1rem; 
 }
 
 .mail-box span {
@@ -364,7 +364,7 @@ h1 {
     font-size: 1rem;
     border: none;
     width: 100%;
-    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    box-sizing: border-box; 
 }
 
 .newsletter-container button {
