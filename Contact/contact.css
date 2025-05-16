@@ -511,7 +511,7 @@ h1 {
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
     .mail-container {
         width: 80%;
         margin-left: 240px;
