@@ -503,18 +503,10 @@ h1 {
   }
 }
 
-@media (min-width: 900px) {
-    .mail-container {
-        width: 80%;
-        margin-left: 10px;
-        margin-top: -80px;
-    }
-}
-
 @media(min-width: 1200px) {
     .mail-container {
         width: 80%;
-        margin-left: 240px;
+        margin-left: 175px;
         margin-top: -80px;
     }
 }
