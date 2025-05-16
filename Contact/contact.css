@@ -450,3 +450,11 @@ h1 {
         margin-top: -80px;
     }
 }
+
+@media (min-width: 900px) {
+    .mail-container {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: -80px;
+    }
+}
