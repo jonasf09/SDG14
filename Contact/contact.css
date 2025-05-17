@@ -1,7 +1,10 @@
-body {
+*{
     margin: 0;
     padding: 0;
-    height: 100vh;
+}
+
+body {
+    min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(0, 0, 0, .4);
     background-size: cover;
@@ -379,6 +382,133 @@ h1 {
     font-size: 1rem;
     cursor: pointer;
 }
+
+footer{
+    width: 100%;
+    background-color: var(--another-color);
+    color: #fff;
+    padding: 30px 0; 
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.footer-section{
+    width: 85%;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 20px 0; 
+}
+
+.left-container{
+    padding: 10px 0; 
+    flex: 1; 
+}
+
+.left-container h1{
+    font-size: 30px;
+    margin-right: 130px;
+}
+
+.logo{
+    width: 100px;
+    margin-bottom: 15px; 
+}
+
+.services-container{
+    position: static; 
+    bottom: auto; 
+    padding: 10px 0;
+    flex: 1;
+}
+
+.services-container h3{
+    font-size: 25px; 
+    font-weight: 600;
+    margin-bottom: 15px; 
+}
+
+.services-container:hover{
+    text-decoration: underline;
+}
+
+.links-container{
+    position: static; 
+    bottom: auto; 
+    padding: 10px 0;
+    flex: 1;
+}
+
+.links-container h3{
+    font-size: 25px; 
+    font-weight: 600;
+    margin-bottom: 15px; 
+}
+
+.links-container:hover{
+    text-decoration: underline;
+}
+
+ul li{
+    list-style: none;
+    margin-top: 10px; 
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 20px; 
+    color: #fff;
+}
+
+.connection-container {
+    position: static; 
+    bottom: auto; 
+    padding: 10px 0;
+    flex: 1;
+}
+
+.connection-container h3{
+    font-size: 25px; 
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.connection-container li{
+    list-style: none;
+    margin-top: 15px;
+    font-size: 20px; 
+}
+
+.connection-container li a{
+    text-decoration: none;
+    font-size: 20px; 
+    color: #fff;
+}
+
+.connection-container:hover{
+    text-decoration: underline;
+}
+
+hr {
+    color: rgba(0,0, 0, .4); 
+    margin-top: 20px; 
+    margin-left: 6%;
+    width: 82%;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 7px;
+}
+
+.social-media a{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 15px;
+}
+
+
 
 @media (min-width: 768px) {
     .mail-container {
