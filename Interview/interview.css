@@ -133,3 +133,10 @@ hr {
     text-align: center;
     margin-top: 7px;
 }
+
+.social-media a{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 15px;
+}
+
