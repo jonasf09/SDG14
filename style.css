@@ -214,12 +214,10 @@ body{
   font-size: 1.1rem;
 }
 
-.about-me-line{
-  height: 10px;
-  border-radius: 10px;
-  width: 30px;
-  color: #1F97D4;
-  z-index: 300;
+.lesen-btn{
+  font-size: 15px;
+  text-decoration: none;
+  margin-left: 30%;
 }
 
 .news-section{
@@ -240,8 +238,6 @@ body{
   gap: 40px;
   justify-content: center;
 }
-
-
 
 .card{
   width: 375px;
