@@ -516,12 +516,12 @@ hr {
     }
 
     .main-container p{
-        font-size: 0.8rem;
-        width: 65%;
+        font-size: 1rem;
+        width: 50%
     }
 
     .main-container h2{
         font-size: 2rem;
-        width: 80%;
+        width: 70%;
     }
 }
