@@ -494,11 +494,11 @@ hr {
     .connection-container li,
     .connection-container li a,
     ul li a {
-        font-size: 15px; 
+        font-size: 12px; 
     }
 
     .social-media{
-        margin-top: 200px;
+        margin-top: 225px;
         margin-left: -300px;
     }
 
