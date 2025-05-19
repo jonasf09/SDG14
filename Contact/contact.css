@@ -678,7 +678,7 @@ hr {
 
     .mail-section{
         align-items: center;
-        margin-left: -50px;
+        margin-left: -100px;
     }
 }
 @media(min-width: 1200px) {
