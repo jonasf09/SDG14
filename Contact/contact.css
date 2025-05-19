@@ -630,58 +630,52 @@ hr {
     margin-bottom: 20px;
   }
 
-    .footer-section {
-        flex-direction: column; /* Anordnung der Bereiche untereinander */
-        align-items: center; /* Zentriert die Bereiche horizontal */
-        text-align: center; /* Zentriert den Text innerhalb der Bereiche */
-    }
-
-    .left-container {
-        margin-bottom: 20px; /* Abstand zum nächsten Bereich */
-    }
-
     .left-container h1 {
-        font-size: 24px; /* Noch kleinere Überschrift */
+        font-size: 24px; 
         line-height: 30px;
-        margin-right: 0; /* Entferne den rechten Margin */
+        margin-right: 0; 
     }
 
     .logo {
-        width: 60px; /* Noch kleineres Logo */
-        margin-bottom: 10px;
+        width: 75px; 
     }
 
     .services-container,
     .links-container,
     .connection-container {
-        margin-bottom: 20px; /* Abstand zwischen den Bereichen */
-        width: 100%; /* Volle Breite für die Container */
+        margin-bottom: 20px; 
+        width: 100%;
+        margin-left: 15px;
     }
 
     .services-container h3,
     .links-container h3,
     .connection-container h3 {
-        font-size: 18px; /* Noch kleinere Überschriften */
+        font-size: 18px; 
     }
 
+    .connection-container li,
+    .connection-container li a,
     ul li a {
-        font-size: 14px; /* Noch kleinere Link-Schrift */
+        font-size: 15px; 
     }
 
-    .connection-container li {
-        font-size: 14px; /* Noch kleinere Icon/Link-Schrift */
-    }
-
-    .social-media {
-        margin-top: 15px; /* Abstand zu den oberen Bereichen */
+    .social-media{
+        margin-top: 65px;
     }
 
     .social-media a {
-        font-size: 28px; /* Etwas größere Icons im Vergleich zum Text */
-        margin-left: 15px; /* Etwas mehr Abstand zwischen Icons */
+        flex-direction: column;
+        font-size: 28px; 
+        margin-left: 27px;
+    }
+
+    .newsletter-section{
+        width: 90%;
+        margin-left: 20%;
+        margin-top: 10%;
     }
 }
-
 @media(min-width: 1200px) {
     .mail-container {
         width: 80%;
