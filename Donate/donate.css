@@ -463,8 +463,11 @@ hr {
     right: 10%;
   }
 
+    footer{
+        margin-top: 600px;
+    }
+
     .footer-section {
-        flex-direction: column; /* Stapelt die Footer-Bereiche untereinander */
         align-items: center; /* Zentriert die Elemente horizontal */
         text-align: center; /* Zentriert den Textinhalt */
     }
