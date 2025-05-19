@@ -467,8 +467,7 @@ hr {
     margin-top: 140%;
   }
 
-    h1 {
-        margin-top: 200px;
+    .left-container h1 {
         font-size: 60px; 
         line-height: 30px;
     }
