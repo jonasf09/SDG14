@@ -515,8 +515,12 @@ hr {
         width: 80%;
     }
 
-    .main-container{
+    .main-container p{
+        font-size: 0.8rem;
+    }
+
+    .main-container h2{
+        font-size: 2rem;
         width: 100%;
-        overflow: hidden;
     }
 }
