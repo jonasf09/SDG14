@@ -517,10 +517,11 @@ hr {
 
     .main-container p{
         font-size: 0.8rem;
+        width: 65%;
     }
 
     .main-container h2{
         font-size: 2rem;
-        width: 100%;
+        width: 80%;
     }
 }
