@@ -661,13 +661,8 @@ hr {
     }
 
     .social-media{
-        margin-top: 65px;
-    }
-
-    .social-media a {
-        flex-direction: column;
-        font-size: 28px; 
-        margin-left: 27px;
+        margin-top: 225px;
+        margin-left: -250px;
     }
 
     .newsletter-section{
