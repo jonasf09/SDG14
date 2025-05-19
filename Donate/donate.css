@@ -464,7 +464,7 @@ hr {
   }
 
   footer{
-    margin-top: 120%;
+    margin-top: 600px;
   }
 
     .left-container h1 {
@@ -511,6 +511,11 @@ hr {
         background-color: var(--secondary-color);
         margin-top: 20px;
         margin-left:  30px;
+        padding-left: 15px;
         width: 80%;
+    }
+
+    .main-container{
+        width: 100%;
     }
 }
