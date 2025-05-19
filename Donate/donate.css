@@ -464,32 +464,47 @@ hr {
   }
 
     footer{
-        margin-top: 600px;
+    margin-top: 140%;
+  }
+
+    .left-container h1 {
+        font-size: 24px; 
+        line-height: 30px;
     }
 
-    .footer-section {
-        align-items: center; /* Zentriert die Elemente horizontal */
-        text-align: center; /* Zentriert den Textinhalt */
-    }
-
-    .left-container {
-        flex-basis: auto; /* Nimmt die benötigte Höhe ein */
-        width: 100%; /* Nimmt die volle Breite ein */
-        margin-bottom: 30px; /* Mehr Abstand */
+    .logo {
+        width: 75px; 
     }
 
     .services-container,
     .links-container,
     .connection-container {
-        flex-basis: auto; /* Nimmt die benötigte Höhe ein */
-        width: 100%; /* Nimmt die volle Breite ein */
-        margin-bottom: 30px; /* Mehr Abstand */
+        margin-bottom: 20px; 
+        width: 100%;
+        margin-left: 15px;
     }
 
-    .social-media {
-        margin-top: 30px; /* Mehr Abstand */
+    .services-container h3,
+    .links-container h3,
+    .connection-container h3 {
+        font-size: 18px; 
     }
 
+    .connection-container li,
+    .connection-container li a,
+    ul li a {
+        font-size: 15px; 
+    }
+
+    .social-media{
+        margin-top: 65px;
+    }
+
+    .social-media a {
+        flex-direction: column;
+        font-size: 28px; 
+        margin-left: 27px;
+    }
 
     .inline-container{
         background-color: var(--secondary-color);
