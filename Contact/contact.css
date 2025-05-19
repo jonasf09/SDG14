@@ -675,6 +675,11 @@ hr {
         margin-left: 20%;
         margin-top: 10%;
     }
+
+    .mail-section{
+        align-items: center;
+        margin-left: -50px;
+    }
 }
 @media(min-width: 1200px) {
     .mail-container {
