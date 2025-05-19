@@ -629,6 +629,57 @@ hr {
     width: 80%;
     margin-bottom: 20px;
   }
+
+    .footer-section {
+        flex-direction: column; /* Anordnung der Bereiche untereinander */
+        align-items: center; /* Zentriert die Bereiche horizontal */
+        text-align: center; /* Zentriert den Text innerhalb der Bereiche */
+    }
+
+    .left-container {
+        margin-bottom: 20px; /* Abstand zum nächsten Bereich */
+    }
+
+    .left-container h1 {
+        font-size: 24px; /* Noch kleinere Überschrift */
+        line-height: 30px;
+        margin-right: 0; /* Entferne den rechten Margin */
+    }
+
+    .logo {
+        width: 60px; /* Noch kleineres Logo */
+        margin-bottom: 10px;
+    }
+
+    .services-container,
+    .links-container,
+    .connection-container {
+        margin-bottom: 20px; /* Abstand zwischen den Bereichen */
+        width: 100%; /* Volle Breite für die Container */
+    }
+
+    .services-container h3,
+    .links-container h3,
+    .connection-container h3 {
+        font-size: 18px; /* Noch kleinere Überschriften */
+    }
+
+    ul li a {
+        font-size: 14px; /* Noch kleinere Link-Schrift */
+    }
+
+    .connection-container li {
+        font-size: 14px; /* Noch kleinere Icon/Link-Schrift */
+    }
+
+    .social-media {
+        margin-top: 15px; /* Abstand zu den oberen Bereichen */
+    }
+
+    .social-media a {
+        font-size: 28px; /* Etwas größere Icons im Vergleich zum Text */
+        margin-left: 15px; /* Etwas mehr Abstand zwischen Icons */
+    }
 }
 
 @media(min-width: 1200px) {
