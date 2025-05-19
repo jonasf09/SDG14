@@ -404,7 +404,7 @@ hr {
 }
 
 @media (max-width: 768px) {
-    
+
     .icons{
     display: inline-flex;
   }
@@ -468,8 +468,9 @@ hr {
   }
 
     .left-container h1 {
-        font-size: 60px; 
+        font-size: 24px; 
         line-height: 30px;
+        margin-right: 0; 
     }
 
     .logo {
