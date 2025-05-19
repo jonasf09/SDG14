@@ -498,14 +498,10 @@ hr {
     }
 
     .social-media{
-        margin-top: 65px;
+        margin-top: 200px;
+        margin-left: -300px;
     }
 
-    .social-media a {
-        order: 1; 
-        margin-top: 30px;
-    }
-    
     .inline-container{
         background-color: var(--secondary-color);
         margin-top: 20px;
