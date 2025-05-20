@@ -224,6 +224,7 @@ body{
   position: relative;
   padding:  450px 0;
   height: 1000px;
+  justify-content: space-around;
   
 }
 
@@ -235,8 +236,6 @@ body{
 .news-container{
   margin-top: 50px;
   display: flex;
-  gap: 40px;
-  justify-content: center;
 }
 
 .card{
@@ -248,7 +247,6 @@ body{
   padding: 50px 50px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 25px;
   text-align: center;
 }
