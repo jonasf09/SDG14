@@ -387,3 +387,9 @@ hr {
   color: #fff;
   margin-left: 15px;
 }
+
+@media(min-width:1400px) {
+  .left-container h1{
+    margin-right: 200px;
+  }
+}

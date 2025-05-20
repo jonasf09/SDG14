@@ -689,4 +689,13 @@ hr {
         margin-left: 225px;
         margin-top: -80px;
     }
+
+    .newsletter-container{
+        margin-right: 50%;
+        margin-top: -75px;
+    }
+
+    .left-container h1{
+        margin-right: 200px;
+    }
 }
