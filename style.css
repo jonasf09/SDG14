@@ -216,9 +216,11 @@ body{
 }
 
 .lesen-btn{
+  position: absolute;
   font-size: 15px;
   text-decoration: none;
-  margin-left: 30%;
+  margin-left: 55%;
+  margin-top: -120px;
 }
 
 .news-section{
