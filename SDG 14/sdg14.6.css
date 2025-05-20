@@ -41,8 +41,9 @@ p{
 
 .picture{
     position: absolute;
-    margin-top: -475px;
+    margin-top: -575px;
     padding-left: 50%;
+    width: 15%;
 }
 
 button{
