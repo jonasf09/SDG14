@@ -44,17 +44,18 @@ p{
 
 .video{
     margin-top: 5%;
-    margin-left: 18%;
+    margin-left: 15%;
+    border: 7px solid #fff;
 }
 
 .container button {
     position: absolute;
-    margin-top: 32%;
-    margin-left: -350px;
-    text-align: center;
+    margin-top: 5%;
+    margin-left: 300px;
+    color: #fff;
     background-color: deepskyblue;
     border: none;
     border-radius: 7px;
-    font-size: 18px;
+    font-size: 20px;
 
 }
