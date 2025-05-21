@@ -206,13 +206,14 @@ body{
 
 .about-me-container h2{
   font-size: 3rem;
+  margin-left: 40%;
 }
 
 .about-me-container p{
   margin-top: 25px;
   text-align: center;
   line-height: 175%;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .lesen-btn{
@@ -220,7 +221,7 @@ body{
   font-size: 15px;
   text-decoration: none;
   margin-left: 55%;
-  margin-top: -120px;
+  margin-top: -135px;
 }
 
 .news-section{

@@ -229,15 +229,15 @@ h2{
 }
 
 .second-text{
-    margin-top: 5%;
+  margin-top: 5%;
     margin-left: 13%;
     width: 75%;
     font-size: 20px;
 }
 
 .second-text a {
-    color: #fff;
-    text-decoration: underline;
+  color: deepskyblue;
+  text-decoration: none;
 }
 
 .second-text a:hover{
