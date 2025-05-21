@@ -237,7 +237,7 @@ h2{
 
 .second-text a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .second-text a:hover{
