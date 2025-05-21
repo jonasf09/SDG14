@@ -23,6 +23,10 @@ h2, h3 {
     color: #fff;
 }
 
+h2{
+    font-size: 22px;
+}
+
 p{
     color: #fff;
     width: 60%;
@@ -40,7 +44,7 @@ p{
 
 .picture{
     position: absolute;
-    margin-top: -575px;
+    margin-top: -475px;
     padding-left: 50%;
     width: 15%;
 }
