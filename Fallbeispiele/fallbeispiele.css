@@ -29,7 +29,7 @@ h1 {
 }
 
 h2{
-    color: rgba(0,0, 0, .5)
+    color: #fff;
 }
 
 .underline {
@@ -43,7 +43,7 @@ h2{
 
 .container-2,.container-4{
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 7%;
     width: 60%;
     background-color: var(--another-color);
     border-radius: 30px;
@@ -58,18 +58,19 @@ h2{
 
 h3{
     margin-top: 3%;
+    color: rgb(164, 195, 222);
 }
 
 .picture{
     width: 20%;
     height: 40%;
     position: absolute;
-    margin-left: 63%;
-    margin-top: -320px;
+    margin-left: 66%;
+    margin-top: -340px;
 }
 
 .container-3{
-    width: 60%;
+    width: 56%;
     margin-left: 35%;
     margin-top: 10%;
     background-color: var(--secondary-color);
@@ -84,19 +85,19 @@ h3{
 }
 
 .picture-2 {
-    width: 20%;
-    height: 40%;
+    width: 23%;
+    height: 50%;
     position: absolute;
-    margin-left: -315px;
-    margin-top: -335px;
+    margin-left: -350px;
+    margin-top: -385px;
 }
 
 .picture-3 {
     width: 20%;
-    height: 40%;
+    height: 50%;
     position: absolute;
-    margin-left: 63%;
-    margin-top: -335px;
+    margin-left: 67%;
+    margin-top: -375px;
 }
 
 .last-container {
