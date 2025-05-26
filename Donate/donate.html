@@ -59,11 +59,11 @@
                     der Ozeane.</p>
             </div>
             <div class="inline-container">
-                <form action="action_page.php">
+                <form action="/index.html">
 
-                    <input type="text" name="firstname" placeholder="Vorname">
+                    <input type="text" name="firstname" placeholder="Vorname" required>
 
-                    <input type="text" name="lastname" placeholder="Nachname">
+                    <input type="text" name="lastname" placeholder="Nachname" required>
 
                     <select id="country" name="country">
                         <option value="australia">Australia</option>
@@ -74,9 +74,9 @@
                         <option value="usa">Italien</option>
                     </select>
 
-                    <input type="text" name="Spenden" placeholder="Wie viel Geld möchtest du spenden?">
+                    <input type="text" name="Spenden" placeholder="Wie viel Geld möchtest du spenden?" required>
 
-                    <button class="donate-btn">SPENDEN</button>
+                    <input class="donate-btn" type="submit" value="Spenden"/>
 
                 </form>
             </div>
